@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- custom css -->
+     <!-- <link rel="stylesheet" href="./style.css"> -->
+    
+    <!-- tailwind css CDN -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font awesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Responsive Flowers</title>
 </head>
-<body>
-    
+<body class="bg-sky-50">
+    <header class="w-full max-w-840 mx-auto"> 
+        <nav class="flex justify-between  text-2xl ">
+            <img class="w-135" src="./assets/logo.png" alt="">
+            <ul class="
+                grid grid-cols-4 
+                auto-cols-auto 
+                items-center 
+                justify-center">
+                <li class="font-bold"><a href="">Home</a></li>
+                <li class="text-gray-400"><a href="">Shop</a></li>
+                <li class="text-gray-400"><a href="">About us</a></li>
+                <li class="pl-4"><a href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
+            </ul>
+        </nav>
+        <div class="h-400 flex justify-between items-end">
+            <div class="w-1/2">
+                <h1 class="
+                    font-[Noto_serif]
+                    text-[170px]
+                    font-black 
+                    font-bold">
+                    ALWAYS <span class="text-orange-400">FRESH <br> FLOWERS</span>
+                </h1>
+                <p class="text-gray-400 text-[70px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <img class="
+                w-1/2 
+                h-auto" 
+                src="./assets/hero-flower.png" alt="">
+        </div>
+    </header>
+    <main class="">
+    <footer>
+
+    </footer>
+
 </body>
 </html>
